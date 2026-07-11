@@ -1,0 +1,37 @@
+{
+  "gpio": {
+    "servo_x_pin": 17,
+    "servo_y_pin": 18,
+    "laser_pin": 27,
+    "laser_invert": true
+  },
+
+  "servo": {
+    "min_pulse_us": 500,
+    "max_pulse_us": 2500,
+    "invert_x": true,
+    "invert_y": true
+  },
+
+  "camera": {
+    "width": 640,
+    "height": 480,
+    "jpeg_quality": 70,
+    "auto_exposure": true,
+    "exposure_time": 20000,
+    "analogue_gain": 2.0,
+    "brightness": 0.0,
+    "contrast": 1.0
+  },
+
+  "network": {
+    "control_port": 5001,
+    "video_port": 5001,
+    "rtsp_port": 8554
+},
+
+  "safety": {
+    "laser_off_on_disconnect": true,
+    "max_laser_on_seconds": 30
+  }
+}
